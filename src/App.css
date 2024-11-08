@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  height: 300vh;
+}
+
+.productos, .carrito {
+  flex: 1;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+ 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  border-right: 1px solid #ddd;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  
+  
+  
+}
+
+li:hover {
+  background-color: #cadcdf;
+}
+
+.total {
+  background-color: #a2e2b2; 
+  padding: 1px;
+  text-align: left;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
